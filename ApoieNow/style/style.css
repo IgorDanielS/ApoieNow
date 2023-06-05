@@ -1,0 +1,72 @@
+/* Home */
+
+/* navbar */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #893e2a;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-items {
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 0;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items li a {
+    color: #fbf9f9;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.navbar-items li a:hover {
+    color: #541200;
+}
+
+/* Contatos: */
+
+.titulo-contatos{
+    font-size: 90px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 20px;
+}
+
+.perguntas {
+    color: rgb(14, 13, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 0px;  
+    
+}
+.formulario{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width:100%; 
+    margin-right: 0px;
+}
